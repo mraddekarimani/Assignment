@@ -70,7 +70,6 @@ function UserList({ onLogout }) {
       <div className="d-flex gap-3 my-3">
         <input type="text" className="form-control" placeholder="Search users..." value={search} onChange={handleSearch} />
         <select className="form-select" onChange={handleSort}>
-          <option value="id">Sort by ID</option>
           <option value="first_name">Sort by First Name</option>
           <option value="last_name">Sort by Last Name</option>
           <option value="email">Sort by Email</option>
